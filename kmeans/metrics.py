@@ -1,18 +1,19 @@
 import numpy as np
 
 
-def square_euclid_distance(x1, x2):
-    print('+'.join([f'√({x1_el} - {x2_el})²' for x1_el,
-          x2_el in zip(x1, x2)]), end=' = ')
-    print('+'.join([f'√{(x1_el - x2_el) ** 2}' for x1_el,
-          x2_el in zip(x1, x2)]), end=' = ')
+def square_euclid_distance(x1, x2, verbose=False):
     distance = sum([(x1_el - x2_el) ** 2 for x1_el, x2_el in zip(x1, x2)])
-    print(distance)
+    if verbose:
+        print('+'.join([f'√({int(x1_el)} - {int(x2_el)})²' for x1_el,
+                        x2_el in zip(x1, x2)]), end=' = ')
+        print('+'.join([f'{int((x1_el - x2_el) ** 2)}' for x1_el,
+                        x2_el in zip(x1, x2)]), end=' = ')
+        print(distance)
     return distance
 
 
-def euclid_distance(x1, x2):
-    return np.sqrt(square_euclid_distance(x1, x2))
+def euclid_distance(x1, x2, verbose=False):
+    return np.sqrt(square_euclid_distance(x1, x2, verbose))
 
 
 def chebishev_distance(x1, x2):
