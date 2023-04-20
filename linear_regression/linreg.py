@@ -84,12 +84,13 @@ class Regression:
         res = {}
         y_pred = self.predict(self.x)
         print('Изменчивость: ')
-        res['Qr'] = np.sum((self.y - y_pred) ** 2)
+        y_mean = np.mean(self.y)
+        res['Qr'] = np.sum((y_pred - y_mean) ** 2)
         print(
-            f'Qr = Σ(y - y_pred)² = {" + ".join(f"({it1:.5f}-{it2:.5f})²" for it1, it2 in zip(self.y, y_pred))} = {res["Qr"]:.5f}')
-        res['Qe'] = np.sum((self.y - np.mean(y_pred)) ** 2)
+            f'Qr = Σ(y_pred - y_mean)² = {" + ".join(f"({pred:.5f}-{y_mean:.5f})²" for pred in y_pred)} = {res["Qr"]:.5f}')
+        res['Qe'] = np.sum((self.y - y_pred) ** 2)
         print(
-            f'Qe = Σ(y - y_mean)² = {" + ".join(f"({it:.5f}-{np.mean(y_pred):.5f})²" for it in self.y)} = {res["Qe"]:.5f}')
+            f'Qe = Σ(y - y_pred)² = {" + ".join(f"({y:.5f}-{pred:.5f})²" for y, pred in zip(self.y, y_pred))} = {res["Qe"]:.5f}')
         res['Q'] = res['Qr'] + res['Qe']
         print(
             f'Q = Qr + Qe = {res["Qr"]:.5f} + {res["Qe"]:.5f} = {res["Q"]:.5f}')
