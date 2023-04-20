@@ -1,0 +1,263 @@
+Класс 1
+UsingIP
+ 1    4290
+-1    1867
+Name: UsingIP, dtype: int64
+LongURL
+-1    4881
+ 1    1224
+ 0      52
+Name: LongURL, dtype: int64
+ShortURL
+ 1    5227
+-1     930
+Name: ShortURL, dtype: int64
+Symbol@
+ 1    5339
+-1     818
+Name: Symbol@, dtype: int64
+Redirecting//
+ 1    5290
+-1     867
+Name: Redirecting//, dtype: int64
+PrefixSuffix-
+-1    4692
+ 1    1465
+Name: PrefixSuffix-, dtype: int64
+SubDomains
+ 1    3260
+-1    1527
+ 0    1370
+Name: SubDomains, dtype: int64
+HTTPS
+ 1    5630
+-1     506
+ 0      21
+Name: HTTPS, dtype: int64
+DomainRegLen
+-1    4699
+ 1    1458
+Name: DomainRegLen, dtype: int64
+Favicon
+ 1    5013
+-1    1144
+Name: Favicon, dtype: int64
+NonStdPort
+ 1    5389
+-1     768
+Name: NonStdPort, dtype: int64
+HTTPSDomainURL
+ 1    5076
+-1    1081
+Name: HTTPSDomainURL, dtype: int64
+RequestURL
+ 1    4337
+-1    1820
+Name: RequestURL, dtype: int64
+AnchorURL
+ 0    3835
+ 1    2286
+-1      36
+Name: AnchorURL, dtype: int64
+LinksInScriptTags
+ 0    2705
+ 1    1883
+-1    1569
+Name: LinksInScriptTags, dtype: int64
+ServerFormHandler
+-1    4202
+ 1    1457
+ 0     498
+Name: ServerFormHandler, dtype: int64
+InfoEmail
+ 1    5074
+-1    1083
+Name: InfoEmail, dtype: int64
+AbnormalURL
+ 1    5132
+-1    1025
+Name: AbnormalURL, dtype: int64
+WebsiteForwarding
+0    5480
+1     677
+Name: WebsiteForwarding, dtype: int64
+StatusBarCust
+ 1    5499
+-1     658
+Name: StatusBarCust, dtype: int64
+DisableRightClick
+ 1    5906
+-1     251
+Name: DisableRightClick, dtype: int64
+UsingPopupWindow
+ 1    4967
+-1    1190
+Name: UsingPopupWindow, dtype: int64
+IframeRedirection
+ 1    5588
+-1     569
+Name: IframeRedirection, dtype: int64
+AgeofDomain
+ 1    3600
+-1    2557
+Name: AgeofDomain, dtype: int64
+DNSRecording
+ 1    4432
+-1    1725
+Name: DNSRecording, dtype: int64
+WebsiteTraffic
+ 1    4324
+-1     982
+ 0     851
+Name: WebsiteTraffic, dtype: int64
+PageRank
+-1    4316
+ 1    1841
+Name: PageRank, dtype: int64
+GoogleIndex
+ 1    5545
+-1     612
+Name: GoogleIndex, dtype: int64
+LinksPointingToPage
+ 0    3227
+ 1    2575
+-1     355
+Name: LinksPointingToPage, dtype: int64
+StatsReport
+ 1    5446
+-1     711
+Name: StatsReport, dtype: int64
+class
+1    6157
+Name: class, dtype: int64
+Класс -1
+UsingIP
+ 1    2972
+-1    1925
+Name: UsingIP, dtype: int64
+LongURL
+-1    4079
+ 1     735
+ 0      83
+Name: LongURL, dtype: int64
+ShortURL
+ 1    4383
+-1     514
+Name: ShortURL, dtype: int64
+Symbol@
+ 1    4060
+-1     837
+Name: Symbol@, dtype: int64
+Redirecting//
+ 1    4336
+-1     561
+Name: Redirecting//, dtype: int64
+PrefixSuffix-
+-1    4897
+Name: PrefixSuffix-, dtype: int64
+SubDomains
+ 0    2252
+-1    1835
+ 1     810
+Name: SubDomains, dtype: int64
+HTTPS
+-1    3050
+ 0    1146
+ 1     701
+Name: HTTPS, dtype: int64
+DomainRegLen
+-1    2689
+ 1    2208
+Name: DomainRegLen, dtype: int64
+Favicon
+ 1    3988
+-1     909
+Name: Favicon, dtype: int64
+NonStdPort
+ 1    4163
+-1     734
+Name: NonStdPort, dtype: int64
+HTTPSDomainURL
+ 1    4183
+-1     714
+Name: HTTPSDomainURL, dtype: int64
+RequestURL
+-1    2675
+ 1    2222
+Name: RequestURL, dtype: int64
+AnchorURL
+-1    3245
+ 0    1502
+ 1     150
+Name: AnchorURL, dtype: int64
+LinksInScriptTags
+-1    2387
+ 0    1744
+ 1     766
+Name: LinksInScriptTags, dtype: int64
+ServerFormHandler
+-1    4237
+ 1     397
+ 0     263
+Name: ServerFormHandler, dtype: int64
+InfoEmail
+ 1    3967
+-1     930
+Name: InfoEmail, dtype: int64
+AbnormalURL
+ 1    4294
+-1     603
+Name: AbnormalURL, dtype: int64
+WebsiteForwarding
+0    4295
+1     602
+Name: WebsiteForwarding, dtype: int64
+StatusBarCust
+ 1    4240
+-1     657
+Name: StatusBarCust, dtype: int64
+DisableRightClick
+ 1    4672
+-1     225
+Name: DisableRightClick, dtype: int64
+UsingPopupWindow
+ 1    3950
+-1     947
+Name: UsingPopupWindow, dtype: int64
+IframeRedirection
+ 1    4454
+-1     443
+Name: IframeRedirection, dtype: int64
+AgeofDomain
+-1    2631
+ 1    2266
+Name: AgeofDomain, dtype: int64
+DNSRecording
+ 1    3180
+-1    1717
+Name: DNSRecording, dtype: int64
+WebsiteTraffic
+ 0    1718
+-1    1672
+ 1    1507
+Name: WebsiteTraffic, dtype: int64
+PageRank
+-1    3884
+ 1    1013
+Name: PageRank, dtype: int64
+GoogleIndex
+ 1    3970
+-1     927
+Name: GoogleIndex, dtype: int64
+LinksPointingToPage
+ 0    2929
+ 1    1775
+-1     193
+Name: LinksPointingToPage, dtype: int64
+StatsReport
+ 1    4059
+-1     838
+Name: StatsReport, dtype: int64
+class
+-1    4897
+Name: class, dtype: int64
