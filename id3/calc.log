@@ -1,0 +1,63 @@
+Подсчитаем прирост информации для UsingPopupWindow
+Info(UsingPopupWindow) = Подсчитаем энтропию:
+Infoₛ(-1|UsingPopupWindow) = - 0.75 * log₂(3 / 4)0.31128
+Infoₛ(1|UsingPopupWindow) = - 0.25 * log₂(1 / 4)0.5
+Infoₛ(UsingPopupWindow) = 0.31128 + 0.5 = 0.8112781244591328
+P(1|UsingPopupWindow) = 4 / 5 = 0.8
+Подсчитаем энтропию:
+Infoₛ(1|UsingPopupWindow) = - 1.0 * log₂(1 / 1)-0.0
+Infoₛ(UsingPopupWindow) = -0.0 = 0.0
+P(-1|UsingPopupWindow) = 1 / 5 = 0.2
+Infoₛ(T) = P(1|UsingPopupWindow) * Infoₛ(UsingPopupWindow) + P(-1|UsingPopupWindow) * Infoₛ(UsingPopupWindow) = 0.6490224995673063
+Подсчитаем общую энтропию разбиения: 
+Info(-1) = 3 - (3 / 5) * log₂(3 / 5) = 0.44217935649972373
+Info(1) = 2 - (2 / 5) * log₂(2 / 5) = 0.5287712379549449
+Info(T) = 0.44218 + 0.52877  =  0.97095
+Gain(S) = Info(T) - Infoₛ(T) = 0.9709505944546686 - 0.6490224995673063 = 0.3219280948873623
+Подсчитаем прирост информации для DNSRecording
+Info(DNSRecording) = Подсчитаем энтропию:
+Infoₛ(-1|DNSRecording) = - 0.75 * log₂(3 / 4)0.31128
+Infoₛ(1|DNSRecording) = - 0.25 * log₂(1 / 4)0.5
+Infoₛ(DNSRecording) = 0.31128 + 0.5 = 0.8112781244591328
+P(-1|DNSRecording) = 4 / 5 = 0.8
+Подсчитаем энтропию:
+Infoₛ(1|DNSRecording) = - 1.0 * log₂(1 / 1)-0.0
+Infoₛ(DNSRecording) = -0.0 = 0.0
+P(1|DNSRecording) = 1 / 5 = 0.2
+Infoₛ(T) = P(-1|DNSRecording) * Infoₛ(DNSRecording) + P(1|DNSRecording) * Infoₛ(DNSRecording) = 0.6490224995673063
+Подсчитаем общую энтропию разбиения: 
+Info(-1) = 3 - (3 / 5) * log₂(3 / 5) = 0.44217935649972373
+Info(1) = 2 - (2 / 5) * log₂(2 / 5) = 0.5287712379549449
+Info(T) = 0.44218 + 0.52877  =  0.97095
+Gain(S) = Info(T) - Infoₛ(T) = 0.9709505944546686 - 0.6490224995673063 = 0.3219280948873623
+Максимальный Gain найден у UsingPopupWindow
+Подсчитаем прирост информации для UsingPopupWindow
+Info(UsingPopupWindow) = Подсчитаем энтропию:
+Infoₛ(-1|UsingPopupWindow) = - 0.75 * log₂(3 / 4)0.31128
+Infoₛ(1|UsingPopupWindow) = - 0.25 * log₂(1 / 4)0.5
+Infoₛ(UsingPopupWindow) = 0.31128 + 0.5 = 0.8112781244591328
+P(1|UsingPopupWindow) = 4 / 4 = 1.0
+Infoₛ(T) = P(1|UsingPopupWindow) * Infoₛ(UsingPopupWindow) = 0.8112781244591328
+Подсчитаем общую энтропию разбиения: 
+Info(-1) = 3 - (3 / 4) * log₂(3 / 4) = 0.31127812445913283
+Info(1) = 1 - (1 / 4) * log₂(1 / 4) = 0.5
+Info(T) = 0.31128 + 0.5  =  0.81128
+Gain(S) = Info(T) - Infoₛ(T) = 0.8112781244591328 - 0.8112781244591328 = 0.0
+Подсчитаем прирост информации для DNSRecording
+Info(DNSRecording) = Подсчитаем энтропию:
+Infoₛ(-1|DNSRecording) = - 1.0 * log₂(3 / 3)-0.0
+Infoₛ(DNSRecording) = -0.0 = 0.0
+P(-1|DNSRecording) = 3 / 4 = 0.75
+Подсчитаем энтропию:
+Infoₛ(1|DNSRecording) = - 1.0 * log₂(1 / 1)-0.0
+Infoₛ(DNSRecording) = -0.0 = 0.0
+P(1|DNSRecording) = 1 / 4 = 0.25
+Infoₛ(T) = P(-1|DNSRecording) * Infoₛ(DNSRecording) + P(1|DNSRecording) * Infoₛ(DNSRecording) = 0.0
+Подсчитаем общую энтропию разбиения: 
+Info(-1) = 3 - (3 / 4) * log₂(3 / 4) = 0.31127812445913283
+Info(1) = 1 - (1 / 4) * log₂(1 / 4) = 0.5
+Info(T) = 0.31128 + 0.5  =  0.81128
+Gain(S) = Info(T) - Infoₛ(T) = 0.8112781244591328 - 0.0 = 0.8112781244591328
+Максимальный Gain найден у DNSRecording
+Итак, дерево приняло вид:
+{'UsingPopupWindow': {1: {'DNSRecording': {-1: -1, 1: 1}}, -1: 1}}
